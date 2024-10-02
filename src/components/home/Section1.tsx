@@ -24,9 +24,10 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               Hi there, I am
             </p>
             <FlipWords
-              words={["Bryan Jericho", "@demon1"]}
-              className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
-            />
+  words={["Bryan Jericho", "@demon1"]}
+  className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal !text-pink-500 font-bold text-center" // Gunakan warna pink Tailwind
+/>
+
           </div>
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
             Software Engineer & CTF Rookie
