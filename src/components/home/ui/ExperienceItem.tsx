@@ -10,10 +10,11 @@ const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
     <CardBox classNames="p-4 items-center text-center bg-[var(--textColor10)] group min-h-80">
       <Column classNames="items-center justify-between w-full h-full gap-12">
         <Column classNames="items-center justify-start">
-          <FontAwesomeIcon
-            icon={faTrophy}
-            className="text-3xl/6 md:text-4xl/6 text-[var(--primaryColor)]"
-          />
+        <FontAwesomeIcon
+  icon={faTrophy}
+  className="text-3xl/6 md:text-4xl/6 !text-pink-500"   
+/>
+
 
           <p className="text-lg/6 font-semibold mt-4">{data.designation}</p>
 
