@@ -3,16 +3,15 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 const projects: IProjectItem[] = [
   {
     id: "social-media-app-flutter",
-    title: "Website of Production Team",
+    title: "Simple notes app",
     description:
-      "I created this website with some collaboration and also enchanting my team works skill (Still in progress)",
-    icon: "/skills/github.svg",
+      "A minimalist notes app built with Next.js, TypeScript, and Tailwind CSS, featuring a rich text editor and dark mode with a navy blue and light blue color palette.",
+    icon: "/skills/typescript.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/BryanJericho/ProductionTeam",
-    // url: "https://www.nixlab.co.in/projects/com.nixlab.rippl",
-    url: "https://github.com/BryanJericho/ProductionTeam",
-    tags: ["Html", "CSS", "Firebase", "Tailwind"],
+    githubUrl: "https://github.com/BryanJericho/simpleNotes-app",
+    url: "https://simple-notes-app-lime.vercel.app/",
+    tags: ["Typescript", "Next JS","Tailwind"],
   },
   {
     id: "e-commerce-app-mern",
@@ -25,6 +24,19 @@ const projects: IProjectItem[] = [
     githubUrl: "https://github.com/naddiyh/mindparents-fe",
     url: "https://mindparents.vercel.app/",
     tags: ["Next.js", "Firebase", "Typescript", "Firebase"],
+  },
+  {
+    id: "social-media-app-flutter",
+    title: "Website of Production Team",
+    description:
+      "I created this website with some collaboration and also enchanting my team works skill (Still in progress)",
+    icon: "/skills/github.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/BryanJericho/ProductionTeam",
+    // url: "https://www.nixlab.co.in/projects/com.nixlab.rippl",
+    url: "https://github.com/BryanJericho/ProductionTeam",
+    tags: ["Html", "CSS", "Firebase", "Tailwind"],
   },
   {
     id: "video-calling-app-flutter",
