@@ -34,7 +34,6 @@ const projects: IProjectItem[] = [
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/BryanJericho/ProductionTeam",
-    // url: "https://www.nixlab.co.in/projects/com.nixlab.rippl",
     url: "https://github.com/BryanJericho/ProductionTeam",
     tags: ["Html", "CSS", "Firebase", "Tailwind"],
   },

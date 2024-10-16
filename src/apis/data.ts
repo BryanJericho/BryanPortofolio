@@ -5,7 +5,6 @@ const MINUTES_5 = 60 * 5;
 const HOURS_1 = 60 * 60;
 const HOURS_12 = 60 * 60 * 12;
 
-// TODO: Implement option to switch between info for authenticated user and other users.
 export async function getUser(username: string) {
   console.log("Fetching user data for", username);
   console.time("getUser");
@@ -249,7 +248,7 @@ export async function checkAppJsxTsxExistence(
   repoName: string
 ) {
   const urlPagesAppJSX = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/pages/_app.jsx`;
-  // TODO: Add more possible ways to check for App Router.
+  
   const urlAppLayoutJSX = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/app/layout.jsx`;
 
   const urlPagesAppTSX = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/pages/_app.tsx`;
