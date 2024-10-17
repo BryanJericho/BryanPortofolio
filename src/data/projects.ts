@@ -51,15 +51,15 @@ const projects: IProjectItem[] = [
   },
   {
     id: "social-media-api-nodejs",
-    title: "Black Jack Game",
+    title: "Book Management API",
     description:
-      "My very first project as a requirement for my final submission at Rocket Academy",
-    icon: "/skills/javascript.svg",
+      "Implementing simple API for CRUD using Golang",
+    icon: "/skills/golang-1.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/BryanJericho/blackJack",
-    url: "https://bryanjericho.github.io/blackJack/",
-    tags: ["Javascript"],
+    githubUrl: "https://github.com/BryanJericho/Book-Management-API",
+    url: "https://github.com/BryanJericho/Book-Management-API",
+    tags: ["Golang"],
   },
 ];
 

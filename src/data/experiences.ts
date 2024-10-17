@@ -26,7 +26,7 @@ const experiences: IExperienceItem[] = [
       "During my time here, I learned how to create a landing page for a team, utilizing skills such as HTML, CSS, and Python, and working with backend technologies.",
   },
   {
-    designation: "Ricket Academy Graduated",
+    designation: "Rocket Academy Graduated",
     company: "Rocket Academy",
     startDate: "Sept 2023",
     endDate: "Nov 2023",

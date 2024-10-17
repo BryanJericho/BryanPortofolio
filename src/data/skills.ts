@@ -13,6 +13,11 @@ const skills: ISkillListItem[] = [
         title: "TypeScript",
         level: SkillLevel.Intermediate,
         icon: "/skills/typescript.svg",
+      },
+      {
+        title: "Golang",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/golang-1.svg",
       }
     ],
   },
@@ -59,6 +64,16 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/express.svg",
       },
+      {
+        title: "Flask",
+        level: SkillLevel.Expert,
+        icon: "/skills/flask.svg",
+      },
+      {
+        title: "Jinja",
+        level: SkillLevel.Expert,
+        icon: "/skills/jinja.svg",
+      }
     ],
   },
   {
@@ -68,11 +83,6 @@ const skills: ISkillListItem[] = [
         title: "MongoDB",
         level: SkillLevel.Intermediate,
         icon: "/skills/mongodb.svg",
-      },
-      {
-        title: "PostgreSQL",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
       },
       {
         title: "Firebase",
